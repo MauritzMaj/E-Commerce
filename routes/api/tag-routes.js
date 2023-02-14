@@ -8,8 +8,8 @@ router.get('/', async (req, res) => {
   // be sure to include its associated Product data
   try {
     const tagData = await Tag.findAll({
-    //JOIN with Product model
-    include: [{ model: Product }],
+      //JOIN with Product model
+      include: [{ model: Product }],
     });
     
     res.status(200).json(tagData);
@@ -28,7 +28,7 @@ router.get('/:id', async (req, res) => {
     });
 
     if (!tagData) {
-      res.status(404).json({ message: 'No location found with this id!' });
+      res.status(404).json({ message: 'No tag found with this id!' });
       return;
     }
 

@@ -22,9 +22,9 @@ Product.init(
     },
     price: {
       type: DataTypes.DECIMAL(10, 2),
-      allowNull: true,
+      allowNull: false,
       validate: {
-        IsDecimal: true,
+       IsDecimal: true,
       }
     },
     stock: {
@@ -52,5 +52,6 @@ Product.init(
     modelName: 'product',
   }
 );
+
 
 module.exports = Product;
