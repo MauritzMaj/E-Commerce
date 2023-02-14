@@ -40,7 +40,7 @@ Created by user: MauritzMaj
 
 https://github.com/MauritzMaj/E-Commerce
 
-link to video tutorial: 
+link to video tutorial: https://drive.google.com/file/d/1RBx8g1SXxPmhYNTx1GjzmKXEH7c1isn1/view
 
 screenshot of application:
 
